@@ -6,28 +6,26 @@
 /*   By: prama <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 08:40:45 by prama             #+#    #+#             */
-/*   Updated: 2020/06/18 09:34:56 by prama            ###   ########.fr       */
+/*   Updated: 2020/06/18 10:46:47 by prama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+void	ft_putchar(char c);
 
-void    ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-    char    letter;
+	char	letter;
 
-    letter = 'a';
-    while (letter <= 'z')
-    {
-        putchar(letter);
-        letter++;
-    }
+	letter = 'a';
+	while (letter <= 'z')
+	{
+		ft_putchar(letter);
+		letter++;
+	}
 }
 
 int main(void)
 {
-    ft_print_alphabet();
-    return 0;
+	ft_print_alphabet();
+	return 0;
 }
-
-
