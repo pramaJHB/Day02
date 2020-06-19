@@ -6,26 +6,20 @@
 /*   By: prama <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 09:38:22 by prama             #+#    #+#             */
-/*   Updated: 2020/06/18 09:49:56 by prama            ###   ########.fr       */
+/*   Updated: 2020/06/19 08:32:57 by prama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+void	ft_putchar(char c);
 
-void    ft_print_reverse_alphabet(void)
+void	ft_print_reerse_alphabet(void)
 {
-    char    letter;
+	char	letter;
 
-    letter = 'z';
-    while (letter >= 'a')
-    {
-        putchar(letter);
-        letter--;
-    }
-}
-
-int main(void)
-{
-    ft_print_reverse_alphabet();
-    return 0;
+	letter = 'z';
+	while (letter >= 'a')
+	{
+		ft_putchar(letter);
+		letter--;
+	}
 }
