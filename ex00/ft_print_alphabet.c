@@ -6,11 +6,19 @@
 /*   By: prama <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 08:40:45 by prama             #+#    #+#             */
-/*   Updated: 2020/06/18 10:59:52 by prama            ###   ########.fr       */
+/*   Updated: 2020/06/23 08:47:03 by prama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+/*
+
+#include <stdio.h>
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}	*/
 
 void	ft_print_alphabet(void)
 {
@@ -24,4 +32,9 @@ void	ft_print_alphabet(void)
 	}
 }
 
-
+/*
+int		main(void)
+{
+	ft_print_alphabet();
+	return (0);
+}	*/
