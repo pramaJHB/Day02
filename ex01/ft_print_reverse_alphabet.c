@@ -6,18 +6,18 @@
 /*   By: prama <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 09:38:22 by prama             #+#    #+#             */
-/*   Updated: 2020/06/23 08:51:30 by prama            ###   ########.fr       */
+/*   Updated: 2020/06/23 08:55:53 by prama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+/*
 #include <stdio.h>
 #include <unistd.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-}	
+}	*/
 
 void	ft_print_reverse_alphabet(void)
 {
@@ -31,9 +31,9 @@ void	ft_print_reverse_alphabet(void)
 	}
 }
 
-
+/*
 int		main(void)
 {
 	ft_print_reverse_alphabet();
 	return (0);
-}
+}	*/
